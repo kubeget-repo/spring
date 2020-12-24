@@ -23,6 +23,7 @@
 - step 3 : jenkines 
 
     - screenshot : 
+        - ![alt text](/jenkines.JPG)
 
 
 

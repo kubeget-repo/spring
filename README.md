@@ -3,7 +3,7 @@
 - step 1 (DockerFile): 
     - we create a DockerFile 
     - we build the image using this command "docker build . -t shadifadila/my_repo:spring"
-    - we upload the image to dokcerhub : 
+    - we upload the image to dockerhub : 
         - the image avaible on this path : 
             - shadifadila/my_repo:spring
 - step 2 (Kubernetes) : 

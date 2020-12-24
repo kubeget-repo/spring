@@ -1,0 +1,5 @@
+FROM maven:3.3-jdk-8
+COPY $PWD/spring-petclinic/ /usr/src/spring-petclinic
+WORKDIR /usr/src/spring-petclinic/
+EXPOSE 8080
+CMD ["java", "-jar","/usr/src/spring-petclinic/target/spring-petclinic-2.4.0.BUILD-SNAPSHOT.jar","--spring.profiles.active=mysql"]

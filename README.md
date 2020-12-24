@@ -9,7 +9,7 @@
 - step 2 (Kubernetes) : 
     there is theee files 
         - spring-configmap.yaml 
-            ##### for mysql environment variables
+            ###### for mysql environment variables
         - spring-deployment.yaml
             include two conatiners in the same POD, the first container is for mysql and the second for spring-website
         - spring-service.yaml 

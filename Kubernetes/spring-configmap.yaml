@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: env-vars
 data:
-  MYSQL_DATABASE1: petclinic
+  MYSQL_DATABASE: petclinic
   MYSQL_ROOT_PASSWORD: root
   MYSQL_USER: petclinic
   MYSQL_PASSWORD: petclinic
